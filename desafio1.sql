@@ -12,7 +12,7 @@ USE `SpotifyClone` ;
 CREATE TABLE IF NOT EXISTS `SpotifyClone`.`Assinatura` (
   `id_assinatura` INT NOT NULL AUTO_INCREMENT,
   `plano` VARCHAR(45) NOT NULL,
-  `valor_plano` FLOAT NOT NULL,
+  `valor_plano` DECIMAL(3,2) NOT NULL,
   PRIMARY KEY (`id_assinatura`)
   )
 ENGINE = InnoDB;
